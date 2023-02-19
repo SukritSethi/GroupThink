@@ -4,7 +4,7 @@ import logo from "./assets/media/logo.png";
 
 const Navbar = () => {
   return (
-    <div className=" w-full h-16 bg-white-main flex justify-between">
+    <div className=" w-full h-16 bg-white-main sticky z-20 top-0 flex justify-between">
       <NavLink
         className={({ isActive }) =>
           isActive ? "h-16" : "h-16"

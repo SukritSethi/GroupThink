@@ -14,7 +14,7 @@ export default function SimpleAccordion() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>What is Artificial intelligence?</Typography>
+          <Typography><b>What is Artificial intelligence?</b></Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -45,7 +45,7 @@ export default function SimpleAccordion() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography>What is Axios</Typography>
+          <Typography><b>What is Axios</b></Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -98,7 +98,7 @@ export default function SimpleAccordion() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography>What is Firebase</Typography>
+          <Typography><b>What is Firebase</b></Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -157,7 +157,7 @@ export default function SimpleAccordion() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography>How to make an API call in postman</Typography>
+          <Typography><b>How to make an API call in postman</b></Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -200,7 +200,7 @@ export default function SimpleAccordion() {
           id="panel2a-header"
         >
           <Typography>
-            What is the difference between a software and a hardware?
+            <b>What is the difference between a software and a hardware?</b>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -240,7 +240,7 @@ export default function SimpleAccordion() {
           id="panel2a-header"
         >
           <Typography>
-            What is the Internet of Things (IoT) and how does it work?
+            <b>What is the Internet of Things (IoT) and how does it work?</b>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -290,7 +290,7 @@ export default function SimpleAccordion() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography>What is cloud computing and how does it work?</Typography>
+          <Typography><b>What is cloud computing and how does it work?</b></Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -351,7 +351,7 @@ export default function SimpleAccordion() {
           id="panel2a-header"
         >
           <Typography>
-            What is blockchain technology and how is it used?
+            <b>What is blockchain technology and how is it used?</b>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -420,7 +420,7 @@ export default function SimpleAccordion() {
           id="panel2a-header"
         >
           <Typography>
-            What is the difference between the internet and the World Wide Web?
+            <b>What is the difference between the internet and the World Wide Web?</b>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -452,7 +452,7 @@ export default function SimpleAccordion() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography>What is a VPN and why do I need one?</Typography>
+          <Typography><b>What is a VPN and why do I need one?</b></Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -496,7 +496,7 @@ export default function SimpleAccordion() {
           id="panel2a-header"
         >
           <Typography>
-            What is the difference between a computer virus and malware?
+            <b>What is the difference between a computer virus and malware?</b>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -540,8 +540,8 @@ export default function SimpleAccordion() {
           id="panel2a-header"
         >
           <Typography>
-            What is 5G and how is it different from previous generations of
-            cellular technology?
+           <b> What is 5G and how is it different from previous generations of
+            cellular technology?</b>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
