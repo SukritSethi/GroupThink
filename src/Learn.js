@@ -35,7 +35,7 @@ const Learn = () => {
                 <source src={`${video.link}`} />
               </Player>
             </div>
-            <div className="flex p-0 text-lg justify-end m-0 text-black-main my-1">
+            <div className="flex p-0 text-lg justify-center m-0 text-black-main my-1">
               {video.description}
             </div>
             <hr></hr>

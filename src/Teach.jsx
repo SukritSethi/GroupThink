@@ -41,11 +41,10 @@ const Teach = () => {
 
   return (
     <div className="flex justify-center">
-
-      <div className="bg-white-main h-98 my-10 p-5 w-192 rounded-2xl ">
-        <div className="m-1 p-1">
+      <div className="bg-white-main h-98 my-10 p-5 w-192 rounded-2xl flex flex-col ">
+        <div className="m-1 p-1 flex justify-center">
           <input
-          className="border p-1"
+            className="border-b p-1 mx-auto mt-20"
             type="text"
             onChange={(e) => {
               setUser(e.target.value);
@@ -53,9 +52,9 @@ const Teach = () => {
             placeholder="Your name..."
           />
         </div>
-        <div className="m-1 p-1">
+        <div className="m-1 p-1 flex justify-center">
           <input
-          className="border p-1"
+            className="border-b p-1"
             type="text"
             onChange={(e) => {
               setHeading(e.target.value);
@@ -63,9 +62,9 @@ const Teach = () => {
             placeholder="Topic Name..."
           />
         </div>
-        <div className="m-1 p-1">
+        <div className="m-1 p-1 flex justify-center">
           <input
-          className="border p-1"
+            className="border-b p-1 "
             type="text"
             onChange={(e) => {
               setDescription(e.target.value);
@@ -73,19 +72,20 @@ const Teach = () => {
             placeholder="Description/article..."
           />
         </div>
-        <div className="m-1 p-1">
+        <div className="m-1 p-1 flex justify-center">
           <input
-          className="border p-1"
+            className="border-b p-1"
             type="file"
+            placeholder="upload video"
             onChange={(e) => {
               setFile(e.target.files[0]);
             }}
           />
         </div>
-        <button onClick={uploadVideo}> Upload Image</button></div>
-        <div>{link}</div>
+        <div className="flex justify-center mt-16">
+        <button onClick={uploadVideo} className="bg-red-main w-40 h-10 rounded-lg hover:bg-red-200  "> Upload Image</button></div>
       </div>
-
+    </div>
   );
 };
 
