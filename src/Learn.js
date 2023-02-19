@@ -30,7 +30,7 @@ const Learn = () => {
             <div className="flex text-lg justify-end m-0 text-black-main ">
               by: {video.user}
             </div>
-            <div className="flex text-lg justify-end m-0 text-black-main my-2 p-2">
+            <div className="flex justify-center text-lg m-0 text-black-main my-2 p-2">
               <Player>
                 <source src={`${video.link}`} />
               </Player>
